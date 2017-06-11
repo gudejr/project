@@ -1,0 +1,233 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.main {
+	margin-bottom: 20px;
+}
+.date {
+	float: right;
+	margin-right: 20px;
+	display: inline-block;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.date p {
+	color: #33CCFF;
+}
+
+
+
+.wrbutton p{
+	position: fixed;
+	border-radius: 100%;
+	display: inline-block;
+	cursor: pointer;
+	color: #000069;
+	font-size: 5em;
+}
+
+.wrbutton p:hover {
+	color: #33CCFF;
+	transition: 0.3s;
+	cursor: pointer;
+
+}
+
+
+.content {
+	padding-top: 10px;
+}
+
+
+
+.submit {
+	padding-top: 15px;
+}
+
+
+
+.mainp {
+	margin-top: 15px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	line-height: 25px;
+}
+.titlep{
+	margin-top: 5px;
+	margin-left: 30px;
+	
+	width: 50%;
+	display: inline-block;
+}
+
+.Line {
+	border : 0.1px dotted gray;
+}
+
+.main p {
+	color: #000069;
+}
+
+.mainp p {
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 600px) {
+.top {
+	background-color: #000069;
+	width: 100%;
+	height: 100px;
+	top: 0;
+	
+	position: fixed;
+    z-index: 998;
+
+}
+
+.logo h1{
+	text-align: center;
+	color: white;
+	margin : 0;
+	padding-top: 5px;
+	text-decoration: none;
+}
+.logo h1 a{
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+}
+
+#inputHelpBlock {
+	width: 85%;
+	transform: translateX(9%);
+	margin-top: 8px;
+	padding: 0;
+}
+.main {
+	margin-top: 120px;
+		
+}
+.cont {
+	display: inline-block;
+	width: 85%;
+    transform: translateX(9%);
+	
+}
+.box {
+	border : 0.1px solid white;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	width: 95%;
+	transform: translateX(3%);
+	margin-top: 20px;
+}
+.wrbutton {
+	height: 100px;
+	width: 50px;
+	display: inline-block;
+	float: right;
+	position: fixed;
+	bottom : 0;
+	right: 24px;
+}
+.write {
+	transform: translateX(5%);
+	width: 90%;
+	float: left;
+}
+.title {
+	width: 100%;
+	padding-top: 15px;
+}
+.content {
+	width :100%;
+}
+
+}
+
+@media screen and (min-width: 601px) {
+.top {
+	background-color: #000069;
+	display: inline-block;
+	width: 65%;
+	transform: translateX(27%);
+	height: 300px;
+	top: 0;
+    margin-right: 0;
+}
+
+.logo h1{
+	text-align: center;
+	color: white;
+	margin : 0;
+	padding-top: 5px;
+	text-decoration: none;
+}
+.logo h1 a{
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+}
+
+#inputHelpBlock {
+	width: 85%;
+	transform: translateX(9%);
+	margin-top: 8px;
+	padding: 0;
+}
+.cont {
+	display: inline-block;
+	width: 65%;
+	transform: translateX(27%);
+	
+}
+.box {
+	border : 0.1px solid white;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	width: 100%;
+	margin-top: 20px;
+}
+.wrbutton {
+	height: 100px;
+	width: 50px;
+	display: inline-block;
+	float: right;
+	position: fixed;
+	bottom: 0;
+	margin-bottom: 30px;
+	right: 70px;
+	
+}
+.Hashcont {
+
+}
+
+#tot {
+	height: 230px;
+	margin-top: 10px;
+}
+.logo {
+	width: 100%;
+	
+}
+
+#app {
+	width: 100%;
+	text-align: center;
+ 
+}
+.write {
+	width: 65%;
+	transform: translateX(27%);
+}
+.logo h1 {
+	float: left;
+}
+.title {
+	width: 100%;
+	padding-top: 15px;
+}
+
+}
